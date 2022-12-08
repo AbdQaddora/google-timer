@@ -6,8 +6,8 @@ const resetBtn = document.querySelector('#reset');
 
 const timerBar = document.querySelector('.timer-bar');
 
-let startTime = 0;
-let remainTime = 0;
+let startTime = 300;
+let remainTime = startTime;
 
 const getSecondsAsTwoDigit = (s) => {
     if (s < 10) {
